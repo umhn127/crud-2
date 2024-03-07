@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-image: url(./images/spring_flowers.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  color: rgb(151, 98, 98);
+}
+form {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  gap: 50px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.title {
+  font-size: 24px;
+}
+form input {
+  height: 32px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(241, 232, 232);
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+form button {
+  height: 32px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+#userList {
+  list-style-type: none;
+}
+button {
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: rgb(151, 98, 98);
+  color: white;
+}
